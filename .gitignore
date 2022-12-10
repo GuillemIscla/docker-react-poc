@@ -1,0 +1,30 @@
+.idea
+.git
+.bsp
+target
+project/project
+*/target/*
+*/*/*/resources/public/webapps/*
+
+
+# dependencies
+webapps/*/node_modules
+webapps/*/.pnp
+typescript/*.pnp.js
+
+# testing
+webapps/*/coverage
+
+# production
+webapps/*/build
+
+# misc
+webapps/*/.DS_Store
+webapps/*/.env.local
+webapps/*/.env.development.local
+webapps/*/.env.test.local
+webapps/*/.env.production.local
+
+webapps/*/npm-debug.log*
+webapps/*/yarn-debug.log*
+webapps/*yarn-error.log*
